@@ -18,7 +18,7 @@ public class UserResource {
     @GetMapping("/publicar/{nome}")
     public String publicar(@PathVariable(name = "nome") String nome) {
         for(int i = 0; i < 1000; i++) {
-        kafkaTemplate.send("kafka_example", new Usuario(nome + i, "Sobrenome"));
+        kafkaTemplate.send("kafka_example", new Usuario(String.valueOf(i) , "Sobrenome"));
 
         }
         return "Publicado";
