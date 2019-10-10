@@ -1,6 +1,6 @@
-package br.com.danilo.kafka.kafkaproducer.resources;
+package br.com.fromtis.kafka.kafkaproducer.resources;
 
-import br.com.danilo.kafka.kafkaproducer.model.Usuario;
+import br.com.fromtis.kafka.kafkaproducer.model.Usuario;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.web.bind.annotation.GetMapping;

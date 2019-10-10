@@ -1,4 +1,4 @@
-package br.com.danilo.kafka.kafkaproducer;
+package br.com.fromtis.kafka.kafkaproducer;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

@@ -1,4 +1,4 @@
-package br.com.danilo.kafka.kafkaproducer.model;
+package br.com.fromtis.kafka.kafkaproducer.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

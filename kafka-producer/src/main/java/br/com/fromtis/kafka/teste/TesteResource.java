@@ -1,6 +1,6 @@
-package br.com.danilo.kafka.teste;
+package br.com.fromtis.kafka.teste;
 
-import br.com.danilo.kafka.fundo.IFundo;
+import br.com.fromtis.fundo.IFundo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

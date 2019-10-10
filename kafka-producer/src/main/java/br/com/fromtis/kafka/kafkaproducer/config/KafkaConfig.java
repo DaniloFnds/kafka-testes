@@ -1,6 +1,6 @@
-package br.com.danilo.kafka.kafkaproducer.config;
+package br.com.fromtis.kafka.kafkaproducer.config;
 
-import br.com.danilo.kafka.kafkaproducer.model.Usuario;
+import br.com.fromtis.kafka.kafkaproducer.model.Usuario;
 import com.google.common.collect.ImmutableMap;
 import org.apache.kafka.clients.producer.ProducerConfig;
 import org.apache.kafka.common.serialization.StringSerializer;

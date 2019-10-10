@@ -1,6 +1,6 @@
-package br.com.danilo.kafka.fundo.entity;
+package br.com.fromtis.fundo.entity;
 
-import br.com.danilo.pessoa.entity.Gestor;
+import br.com.fromtis.pessoa.entity.Gestor;
 import lombok.Data;
 import org.springframework.data.jpa.domain.AbstractPersistable;
 
