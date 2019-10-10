@@ -1,4 +1,4 @@
-package br.com.fromtis.kafka.teste;
+package br.com.fromtis.kafka.kafkaproducer.resources;
 
 import br.com.fromtis.fundo.IFundo;
 import org.springframework.beans.factory.annotation.Autowired;

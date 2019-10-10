@@ -7,8 +7,8 @@ import org.springframework.stereotype.Service;
 @Service
 public class FundoImpl implements IFundo {
 
-//    @Autowired
-//    private FundoDao fundoDao;
+    @Autowired
+    private FundoDao fundoDao;
 
     @Override
     public Fundo findOne(final Integer id) {
